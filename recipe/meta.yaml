@@ -1,5 +1,5 @@
 {% set name = "azure-graphrbac" %}
-{% set version = "0.61.0" %}
+{% set version = "0.61.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.zip
-  sha256: 4ab27db29d730e4d35f420466500f8ee60a26a8151dbd121a6c353ccd9d4ee55
+  sha256: 53e98ae2ca7c19b349e9e9bb1b6a824aeae8dcfcbe17190d20fe69c0f185b2e2
 
 build:
   noarch: python
